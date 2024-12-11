@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
     $file = $_FILES['file'];
 
-    $uploadDir = 'image/';
+    $uploadDir = 'images/';
     $fileName = basename($file['name']);
     $fileTmpName = $file['tmp_name'];
     $fileSize = $file['size'];

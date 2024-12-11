@@ -10,10 +10,10 @@
 <body>
     <h1>Welcome to My Image Gallery!</h1>
 
-    <form action="upload.php" method="POST" enctype="multipart/form-data">
+    <form id="upload-form" action="upload.php" method="POST" enctype="multipart/form-data">
         <label for="file-input">Select Image:</label>
         <input type="file" name="file" id="file-input" accept="image/*" required>
-        <button type="submit">Upload</button>
+        <button type="button" id="upload-button">Upload</button>
     </form>
 
     <div id="gallery" class="gallery">

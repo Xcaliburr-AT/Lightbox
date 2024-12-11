@@ -1,0 +1,1 @@
+Need to use xampp to access the images dir and display the image in light box.
